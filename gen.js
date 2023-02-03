@@ -3,8 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const vehNum = document.getElementById('vehNum');
     const submitBtn = document.getElementById('submitBtn');
 
-    console.log(uuid.v4())
-
     submitBtn.addEventListener('click', () => {
         let qrcode = new QRCode("qrcode", {
             text: vehNum.value.toString(),

@@ -1,0 +1,24 @@
+{
+  "name": "QPark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sync-Codes/QPark.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sync-Codes/QPark/issues"
+  },
+  "homepage": "https://github.com/Sync-Codes/QPark#readme",
+  "dependencies": {
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.8.4"
+  }
+}
